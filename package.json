@@ -1,0 +1,33 @@
+{
+  "name": "cicd-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "start": "node server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/98hub/cicd-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/98hub/cicd-nodejs/issues"
+  },
+  "homepage": "https://github.com/98hub/cicd-nodejs#readme",
+  "description": "CI-CD NodeJS",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
