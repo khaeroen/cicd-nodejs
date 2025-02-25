@@ -35,7 +35,7 @@ app.get('/dewacloud', (req, res) => {
             <title>Dewacloud</title>
         </head>
         <body>
-            <h1>Hello Dewacloud</h1>
+            <h1>Hello Dewacloud!</h1>
         </body>
         </html>
     `);
