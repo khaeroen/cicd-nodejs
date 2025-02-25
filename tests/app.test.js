@@ -16,3 +16,11 @@ describe('GET /dewaweb', () => {
         expect(res.text).toContain('Hello Dewaweb!');
     });
 });
+
+describe('GET /dewacloud', () => {
+    it('should return the Dewaweb page with the correct message', async () => {
+        const res = await request(app).get('/dewacloud');
+        expect(res.statusCode).toEqual(200);
+        expect(res.text).toContain('Hello Dewacloud!');
+    });
+});
